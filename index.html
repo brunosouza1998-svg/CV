@@ -1,90 +1,85 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="Icones/curriculo.png">
     <title>Currículo - Bruno Rocha de Souza</title>
+    
+    <link rel="icon" type="image/png" href="Icones/curriculo.png">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
+
+<header id="cabecalho">
     <h1>Bruno Rocha de Souza</h1>
-    <img src="Imagens/Minha Foto.jpg" width="200" alt="Minha foto">
-    <p>Estudante de Análise e Desenvolvimento de Sistemas - UTFPR-CP</p>
-    <h2>Objetivo</h2>
-    <p>Aprender cada dia mais para em tornar um profissional melhor. Também, tenho por objetivo me formar em Análise e Desenvolvimento de Sistemas e atuar na área o quanto antes.</p>
-    </header>
+    <img src="Imagens/Minha Foto.jpg" width="180" alt="Foto de Bruno Rocha" class="foto-perfil">
+    <p class="subtitulo">Estudante de Análise e Desenvolvimento de Sistemas - UTFPR-CP</p>
 
-    <main>
+    <div class="objetivo">
+        <h2>Objetivo</h2>
+        <p>Aprender cada dia mais para me tornar um profissional melhor. Tenho por objetivo me formar em ADS e atuar na área de tecnologia o quanto antes.</p>
+    </div>
+</header>
 
+<main>
     <section>
-    <h2>Contato</h2>
-    <ul>
-        <li><img src="Icones/telefone.png" class="Phone" height="15" width="15" alt="Ícone de Telefone"> 
-            <strong>Telefone: </strong> (43)98843-4459</li>
-        <li><img src="Icones/gmail.png" class="Email" height="15" width="15" alt="Ícone de Email">
-            <strong>Email: </strong><a href="mailto:brunosouza.1998@alunos.utfpr.edu.br" target="_blank">brunosouza.1998@alunos.utfpr.edu.br</a></li>
-        <li><img src="Icones/linkedin.png" class="Linkedin" height="15" width="15" alt="Ícone do Linkedin">
-            <strong>Linkedin: </strong><a href="https://www.linkedin.com/in/bruno-rocha-souza-48b657382/" target="_blank">Meu Linkedin</a></li>
-        <li><img src="Icones/github.png" class="GitHub" height="15" width="15" alt="Ícone do GitHub">
-            <strong>GitHub: </strong><a href="https://github.com/brunosouza1998-svg" target="_blank">Meu GitHub</a></li>
-    </ul>
+        <h2>Contato</h2>
+        <ul class="lista-contato">
+            <li><img src="Icones/telefone.png" class="icone" alt="Telefone"> <strong>Telefone:</strong> (43) 98843-4459</li>
+            <li><img src="Icones/gmail.png" class="icone" alt="Email"> <strong>Email:</strong> <a href="mailto:brunosouza.1998@alunos.utfpr.edu.br" target="_blank">brunosouza.1998@alunos.utfpr.edu.br</a></li>
+            <li><img src="Icones/linkedin.png" class="icone" alt="Linkedin"> <strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/bruno-rocha-souza-48b657382/" target="_blank">Meu Linkedin</a></li>
+            <li><img src="Icones/github.png" class="icone" alt="GitHub"> <strong>GitHub:</strong> <a href="https://github.com/brunosouza1998-svg" target="_blank">Meu GitHub</a></li>
+        </ul>
     </section>
 
     <section>
-    <h2>Habilidades</h2>
-    <ul>
-        <li><img src="Icones/estados-unidos.png" class="Ingles" height="15" width="15" alt="Ícone de Idioma"> Inglês - Básico</li>
-        <li><img src="Icones/palavra.png" class="Pacote Office" height="15" width="15" alt="Ícone de Pacote Office"> Pacote Office - Intermediário</li>
-        <li><img src= "Icones/gerenciamento-de-equipe.png" class="Gestão" height="15" width="15" alt="Ícone de Gestão"> Gestão - Curso Livre</li>
-        <li><img src="Icones/poste-de-barbeiro.png" class="Barbeiro" height="15" width="15" alt="Ícone de Barbearia"> Barbeiro - Profissional</li>
-    </ul>
+        <h2>Habilidades</h2>
+        <ul class="lista-habilidades">
+            <li><img src="Icones/estados-unidos.png" class="icone" alt="Inglês"> Inglês - Básico</li>
+            <li><img src="Icones/palavra.png" class="icone" alt="Office"> Pacote Office - Intermediário</li>
+            <li><img src="Icones/gerenciamento-de-equipe.png" class="icone" alt="Gestão"> Gestão - Curso Livre</li>
+            <li><img src="Icones/poste-de-barbeiro.png" class="icone" alt="Barbearia"> Barbeiro - Profissional</li>
+        </ul>
     </section>
 
     <section>
-    <h2>Resumo</h2>
-    <ul>
-        <li>Já atuei em algumas áreas (Supermercados, Industriais, Lojas), porém com foco na área administrativa, onde fiz desde lançamento/emissão de notas até a parte de RH. Atualmente, sou funcionário público estatutário.</li>
-    </ul>
+        <h2>Resumo</h2>
+        <p>Já atuei em diversas áreas (Varejo, Indústria, Comércio), com foco administrativo e RH. Atualmente, sou funcionário público estatutário, buscando transição para a área de tecnologia.</p>
     </section>
 
-    <section>
+    <section class="ods-section">
         <h2>ODS que pretendo contribuir</h2>
         <figure>
-        <img src="Imagens/ODS.jpg" class="ODS" width="150" height="150" alt="ODS"><figcaption>ODS: Industria, inovação e infraestrutura</figcaption>
+            <img src="Imagens/ODS.jpg" class="ODS" width="150" height="150" alt="ODS">
+            <figcaption>ODS 9: Indústria, Inovação e Infraestrutura</figcaption>
         </figure>
-        <p>Quero contribuir com a ODS de Indústria e Inovação porque acredito que o desenvolvimento tecnológico e a modernização das indústrias são fundamentais para gerar oportunidades, aumentar a eficiência e melhorar a qualidade de vida das pessoas. 
-            Participar desse processo me motiva a buscar soluções criativas e sustentáveis que ajudem a construir um futuro mais inovador e acessível para todos.</p>
+        <p>Acredito que o desenvolvimento tecnológico e a modernização das indústrias são fundamentais para gerar oportunidades e melhorar a qualidade de vida das pessoas.</p>
     </section>
 
     <section>
-    <h2>Experiência Profissional</h2>
-    <h3>Inspetor de Alunos | Prefeitura de Cornélio Procópio</h3>
-    <p>04/2025 - Presente</p>
-    <ul>
-        <li>Responsável por cuidar da disciplina e do comportamento dos alunos fora de sala de aula. </li>
-    </ul>
-    <h3>Auxiliar Administrativo | Casa dos Parafusos</h3>
-    <p>2024-2025</p>
-    <ul>
-        <li>Emissão de notas fiscais</li>
-        <li>Controle de estoque</li>
-        <li>Cadastro de clientes</li>
-        <li>Contas a pagar</li>
-        <li>Contas a receber</li>
-        <li>RH</li>
-    </ul>
-</section>
+        <h2>Experiência Profissional</h2>
+        <div class="exp-item">
+            <h3>Inspetor de Alunos | Prefeitura de Cornélio Procópio</h3>
+            <p class="data">04/2025 - Presente</p>
+        </div>
+        <div class="exp-item">
+            <h3>Auxiliar Administrativo | Casa dos Parafusos</h3>
+            <p class="data">2024 - 2025</p>
+        </div>
+    </section>
 
-<section>
-
-    <h2>Formação</h2>
-    <ul>
-        <li><strong>Ensino Médio Completo - Colégio Estadual "Zulmira Marchesi da Silva"</strong>  | 2015</li>
-        <li><strong>Graduação em Análise e Desenvolvimento de Sistemas-UTFPR-CP</strong> | Cursando</li>
-    </ul>
- </section>
+    <section>
+        <h2>Formação</h2>
+        <ul>
+            <li><strong>Ensino Médio Completo</strong> | 2015</li>
+            <li><strong>Graduação em ADS - UTFPR-CP</strong> | Cursando</li>
+        </ul>
+    </section>
 </main>
+
 </body>
 </html>
